@@ -120,6 +120,13 @@ hr {
   letter-spacing: 1px;
 }
 
+/* image size */
+@media screen and (max-width: 992px) {
+  #parallax {
+      background-attachment: scroll;
+  }
+}
+
 /* home section */
 #home {
   background: url('../images/home-bg.jpg') 50% 0 repeat-y fixed;
@@ -137,8 +144,7 @@ hr {
           align-items: center;
   height: 100vh;
   text-align: center; 
-  background-size:100%;
-  width:100%;
+  
 }
 #home h1 {
   font-size: 20px;
