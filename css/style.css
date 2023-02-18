@@ -120,12 +120,6 @@ hr {
   letter-spacing: 1px;
 }
 
-/* image size */
-@media screen and (max-width: 992px) {
-  #home {
-      background-attachment: scroll;
-  }
-}
 
 /* home section */
 #home {
@@ -137,7 +131,7 @@ hr {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
-  display: flex;
+  /* display: flex; */
   -webkit-box-align: center;
   -webkit-align-items: center;
       -ms-flex-align: center;
