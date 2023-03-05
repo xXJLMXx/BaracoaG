@@ -123,25 +123,33 @@ hr {
 
 /* home section */
 
-.wp-block-cover-image.has-parallax, .wp-block-cover.has-parallax, .wp-block-cover__image-background.has-parallax, video.wp-block-cover__video-background.has-parallax {
-	background-size: cover;
-	background-position: 53% 50% !important;
-}
+/* #home{
+  background-image:url('../images/home-bg.jpg');
+  width:1020px;
+  min-height:398px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%; /* Set width and height to 100% */
+} */
+
 #home {
   background: url('../images/home-bg.jpg') 50% 0 repeat-y fixed;
   -webkit-background-size: cover;
-  background-size: cover;
+  background-size: 100% 100%;
   background-position: center;
   color: #ffffff;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
-  display: flex;
+  /* display: flex; */
   -webkit-box-align: center;
   -webkit-align-items: center;
       -ms-flex-align: center;
           align-items: center;
-  height: 100vh;
+  /* height: 100vh; */
+  width:100%;
+  min-height:100%;
   text-align: center; 
   
 }
