@@ -120,7 +120,18 @@ hr {
   letter-spacing: 1px;
 }
 
+
 /* home section */
+
+body {
+  background-image:url("http://i.imgur.com/aZO5Kolb.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+html {
+  height: 100%
+}
+
 #home {
   background: url('../images/home-bg.jpg') 50% 0 repeat-y fixed;
   -webkit-background-size: cover;
@@ -136,7 +147,8 @@ hr {
       -ms-flex-align: center;
           align-items: center;
   height: 100vh;
-  text-align: center;
+  text-align: center; 
+  
 }
 #home h1 {
   font-size: 20px;
