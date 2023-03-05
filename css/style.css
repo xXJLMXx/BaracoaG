@@ -123,33 +123,30 @@ hr {
 
 /* home section */
 
-/* #home{
-  background-image:url('../images/home-bg.jpg');
-  width:1020px;
-  min-height:398px;
-  background-attachment: fixed;
-  background-position: center;
+body {
+  background-image:url("http://i.imgur.com/aZO5Kolb.jpg");
   background-repeat: no-repeat;
-  background-size: 100% 100%; /* Set width and height to 100% */
-} */
+  background-size: 100% 100%;
+}
+html {
+  height: 100%
+}
 
 #home {
   background: url('../images/home-bg.jpg') 50% 0 repeat-y fixed;
   -webkit-background-size: cover;
-  background-size: 100% 100%;
+  background-size: cover;
   background-position: center;
   color: #ffffff;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
-  /* display: flex; */
+  display: flex;
   -webkit-box-align: center;
   -webkit-align-items: center;
       -ms-flex-align: center;
           align-items: center;
-  /* height: 100vh; */
-  width:100%;
-  min-height:100%;
+  height: 100vh;
   text-align: center; 
   
 }
