@@ -125,7 +125,7 @@ hr {
 #home {
   background: url('../images/home-bg.jpg') 50% 0 repeat-y fixed;
   -webkit-background-size: cover;
-  background-size: cover;
+  background-size: 100%;
   background-position: center;
   color: #ffffff;
   display: -webkit-box;
@@ -136,7 +136,7 @@ hr {
   -webkit-align-items: center;
       -ms-flex-align: center;
           align-items: center;
-  height: 100vh;
+  /* height: 100vh; */
   text-align: center; 
   
 }
