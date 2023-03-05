@@ -122,10 +122,15 @@ hr {
 
 
 /* home section */
+
+.wp-block-cover-image.has-parallax, .wp-block-cover.has-parallax, .wp-block-cover__image-background.has-parallax, video.wp-block-cover__video-background.has-parallax {
+	background-size: cover;
+	background-position: 53% 50% !important;
+}
 #home {
-  background: url('../images/home-bg.jpg') repeat-y fixed;
+  background: url('../images/home-bg.jpg') 50% 0 repeat-y fixed;
   -webkit-background-size: cover;
-  background-size: 100% auto;
+  background-size: cover;
   background-position: center;
   color: #ffffff;
   display: -webkit-box;
