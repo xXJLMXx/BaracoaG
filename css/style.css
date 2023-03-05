@@ -122,10 +122,19 @@ hr {
 
 
 /* home section */
+
+body {
+  background-image:url("../images/home-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+html {
+  height: 100%
+}
 #home {
   background: url('../images/home-bg.jpg') 50% 0 repeat-y fixed;
-  -webkit-background-size: 100% 100%;
-  background-size: 100% 100%;
+  -webkit-background-size: cover;
+  background-size: cover;
   background-position: center;
   color: #ffffff;
   display: -webkit-box;
