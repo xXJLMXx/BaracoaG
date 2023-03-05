@@ -125,7 +125,7 @@ hr {
 #home {
   background: url('../images/home-bg.jpg') 50% 0 repeat-y fixed;
   -webkit-background-size: cover;
-  background-size: cover;
+  /* background-size: cover; */
   background-position: center;
   color: #ffffff;
   display: -webkit-box;
