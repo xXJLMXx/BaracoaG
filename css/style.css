@@ -122,7 +122,7 @@ hr {
 
 /* home section */
 #home {
-  background: url('../images/home-bg.jpg') center cover no-repeat;
+  background: url('../images/home-bg.jpg') center no-repeat;
   -webkit-background-size: cover;
   background-size: cover;
   background-position: center;
