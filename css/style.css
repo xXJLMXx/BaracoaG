@@ -120,15 +120,9 @@ hr {
   letter-spacing: 1px;
 }
 
-@media screen and (max-width: 992px) {
-  #parallax {
-      background-attachment: scroll;
-  }
-}
-
 /* home section */
 #home {
-  background: url('../images/home-bg.jpg') 50% 0 repeat-y fixed;
+  background: url('../images/home-bg.jpg') 50% 0 repeat-y scroll;
   -webkit-background-size: cover;
   background-size: cover;
   background-position: center;
